@@ -1,0 +1,8 @@
+[package]
+name = "sign-tx"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+ethers = { version = "2.0.14", features = ["legacy"] }
+tokio = { version = "1.43.0", features = ["full"] }
